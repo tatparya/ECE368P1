@@ -1,5 +1,14 @@
-#include<stdlib.h>
-#include<stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+
+typedef struct q_element {
+	int arrival_time;
+	int priority;
+	int duration;
+	struct q_element * next;
+} Q;
 
 int main( int argc, char ** argv )
 {
@@ -16,11 +25,3 @@ int main( int argc, char ** argv )
 
 	return 0;
 }
-
-typedef struct q_element {
-	int arrival_time;
-	int priority;
-	int duration;
-	struct q_element * next;
-} Q;
-
