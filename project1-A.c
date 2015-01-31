@@ -13,6 +13,14 @@ int main( int argc, char ** argv )
 	{
 		mode = 2;
 	}
-	
+
 	return 0;
 }
+
+typedef struct q_element {
+	int arrival_time;
+	int priority;
+	int duration;
+	struct q_element * next;
+} Q;
+
