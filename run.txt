@@ -1,0 +1,1853 @@
+#################################
+
+System Time = 1
+
+QUEUE 1
+Queue is empty!!!
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+QUEUE
+_______
+1 : 1 0 4 0
+
+############# t + 1 - del ####################
+
+System Time = 1
+
+QUEUE 1
+Queue is empty!!!
+
+QUEUE 0
+QUEUE
+_______
+1 : 1 0 4 0
+
+
+#################################
+
+TotalLength = 0
+Totalwaitingtime0 = 1
+Totalwaitingtime1 = 0
+Totalservicetime0 = 4
+Totalservicetime1 = 0
+TotalwaitTime0 = 0
+TotalwaitTime1 = 0
+QUEUE
+_______
+1 : 1 1 2 0
+
+############# t + 1 - del ####################
+
+System Time = 1
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 0
+
+QUEUE 0
+QUEUE
+_______
+1 : 1 0 4 0
+
+
+#################################
+
+TotalLength = 0
+Totalwaitingtime0 = 1
+Totalwaitingtime1 = 1
+Totalservicetime0 = 4
+Totalservicetime1 = 2
+TotalwaitTime0 = 0
+TotalwaitTime1 = 0
+#################################
+
+System Time = 2
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 1
+
+QUEUE 0
+QUEUE
+_______
+1 : 1 0 4 1
+
+
+#################################
+
+************
+Pushing element: 2 0 1 0
+************
+QUEUE
+_______
+1 : 1 0 4 1
+2 : 2 0 1 0
+
+############# t + 1 - del ####################
+
+System Time = 2
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 1
+
+QUEUE 0
+QUEUE
+_______
+1 : 1 0 4 1
+2 : 2 0 1 0
+
+
+#################################
+
+TotalLength = 2
+Totalwaitingtime0 = 2
+Totalwaitingtime1 = 1
+Totalservicetime0 = 5
+Totalservicetime1 = 2
+TotalwaitTime0 = 0
+TotalwaitTime1 = 0
+************
+Pushing element: 2 1 4
+************
+QUEUE
+_______
+1 : 1 1 2 1
+2 : 2 1 4 0
+
+############# t + 1 - del ####################
+
+System Time = 2
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 1
+2 : 2 1 4 0
+
+QUEUE 0
+QUEUE
+_______
+1 : 1 0 4 1
+2 : 2 0 1 0
+
+
+#################################
+
+TotalLength = 2
+Totalwaitingtime0 = 2
+Totalwaitingtime1 = 2
+Totalservicetime0 = 5
+Totalservicetime1 = 6
+TotalwaitTime0 = 0
+TotalwaitTime1 = 0
+#################################
+
+System Time = 3
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 2
+2 : 2 1 4 1
+
+QUEUE 0
+QUEUE
+_______
+1 : 1 0 4 2
+2 : 2 0 1 1
+
+
+#################################
+
+************
+Pushing element: 3 0 2 0
+************
+QUEUE
+_______
+1 : 1 0 4 2
+2 : 2 0 1 1
+3 : 3 0 2 0
+
+############# t + 1 - del ####################
+
+System Time = 3
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 2
+2 : 2 1 4 1
+
+QUEUE 0
+QUEUE
+_______
+1 : 1 0 4 2
+2 : 2 0 1 1
+3 : 3 0 2 0
+
+
+#################################
+
+TotalLength = 6
+Totalwaitingtime0 = 3
+Totalwaitingtime1 = 2
+Totalservicetime0 = 7
+Totalservicetime1 = 6
+TotalwaitTime0 = 0
+TotalwaitTime1 = 0
+#################################
+
+System Time = 4
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 3
+2 : 2 1 4 2
+
+QUEUE 0
+QUEUE
+_______
+1 : 1 0 4 3
+2 : 2 0 1 2
+3 : 3 0 2 1
+
+
+#################################
+
+************
+Pushing element: 4 1 3
+************
+QUEUE
+_______
+1 : 1 1 2 3
+2 : 2 1 4 2
+3 : 4 1 3 0
+
+############# t + 1 - del ####################
+
+System Time = 4
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 3
+2 : 2 1 4 2
+3 : 4 1 3 0
+
+QUEUE 0
+QUEUE
+_______
+1 : 1 0 4 3
+2 : 2 0 1 2
+3 : 3 0 2 1
+
+
+#################################
+
+TotalLength = 11
+Totalwaitingtime0 = 3
+Totalwaitingtime1 = 3
+Totalservicetime0 = 7
+Totalservicetime1 = 9
+TotalwaitTime0 = 0
+TotalwaitTime1 = 0
+#################################
+
+System Time = 5
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 4
+2 : 2 1 4 3
+3 : 4 1 3 1
+
+QUEUE 0
+QUEUE
+_______
+1 : 1 0 4 4
+2 : 2 0 1 3
+3 : 3 0 2 2
+
+
+#################################
+
+************
+Pushing element: 5 1 4
+************
+QUEUE
+_______
+1 : 1 1 2 4
+2 : 2 1 4 3
+3 : 4 1 3 1
+4 : 5 1 4 0
+
+---------------------
+Popping element: 1 0 4 4
+---------------------
+QUEUE
+_______
+1 : 1 0 4 4
+2 : 2 0 1 3
+3 : 3 0 2 2
+
+Next in queue: 2 0 1 4
+
+############# t + 1 - del ####################
+
+System Time = 5
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 4
+2 : 2 1 4 3
+3 : 4 1 3 1
+4 : 5 1 4 0
+
+QUEUE 0
+QUEUE
+_______
+1 : 2 0 1 3
+2 : 3 0 2 2
+
+
+#################################
+
+TotalLength = 17
+Totalwaitingtime0 = 3
+Totalwaitingtime1 = 4
+Totalservicetime0 = 7
+Totalservicetime1 = 13
+TotalwaitTime0 = 4
+TotalwaitTime1 = 0
+#################################
+
+System Time = 6
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 5
+2 : 2 1 4 4
+3 : 4 1 3 2
+4 : 5 1 4 1
+
+QUEUE 0
+QUEUE
+_______
+1 : 2 0 1 4
+2 : 3 0 2 3
+
+
+#################################
+
+************
+Pushing element: 6 0 1 0
+************
+QUEUE
+_______
+1 : 2 0 1 4
+2 : 3 0 2 3
+3 : 6 0 1 0
+
+---------------------
+Popping element: 2 0 1 4
+---------------------
+QUEUE
+_______
+1 : 2 0 1 4
+2 : 3 0 2 3
+3 : 6 0 1 0
+
+Next in queue: 3 0 2 4
+
+############# t + 1 - del ####################
+
+System Time = 6
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 5
+2 : 2 1 4 4
+3 : 4 1 3 2
+4 : 5 1 4 1
+
+QUEUE 0
+QUEUE
+_______
+1 : 3 0 2 3
+2 : 6 0 1 0
+
+
+#################################
+
+TotalLength = 23
+Totalwaitingtime0 = 4
+Totalwaitingtime1 = 4
+Totalservicetime0 = 8
+Totalservicetime1 = 13
+TotalwaitTime0 = 8
+TotalwaitTime1 = 0
+#################################
+
+System Time = 7
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 6
+2 : 2 1 4 5
+3 : 4 1 3 3
+4 : 5 1 4 2
+
+QUEUE 0
+QUEUE
+_______
+1 : 3 0 2 4
+2 : 6 0 1 1
+
+
+#################################
+
+************
+Pushing element: 7 1 2
+************
+QUEUE
+_______
+1 : 1 1 2 6
+2 : 2 1 4 5
+3 : 4 1 3 3
+4 : 5 1 4 2
+5 : 7 1 2 0
+
+############# t + 1 - del ####################
+
+System Time = 7
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 6
+2 : 2 1 4 5
+3 : 4 1 3 3
+4 : 5 1 4 2
+5 : 7 1 2 0
+
+QUEUE 0
+QUEUE
+_______
+1 : 3 0 2 4
+2 : 6 0 1 1
+
+
+#################################
+
+TotalLength = 29
+Totalwaitingtime0 = 4
+Totalwaitingtime1 = 5
+Totalservicetime0 = 8
+Totalservicetime1 = 15
+TotalwaitTime0 = 8
+TotalwaitTime1 = 0
+#################################
+
+System Time = 8
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 7
+2 : 2 1 4 6
+3 : 4 1 3 4
+4 : 5 1 4 3
+5 : 7 1 2 1
+
+QUEUE 0
+QUEUE
+_______
+1 : 3 0 2 5
+2 : 6 0 1 2
+
+
+#################################
+
+************
+Pushing element: 8 1 3
+************
+QUEUE
+_______
+1 : 1 1 2 7
+2 : 2 1 4 6
+3 : 4 1 3 4
+4 : 5 1 4 3
+5 : 7 1 2 1
+6 : 8 1 3 0
+
+---------------------
+Popping element: 3 0 2 5
+---------------------
+QUEUE
+_______
+1 : 3 0 2 5
+2 : 6 0 1 2
+
+Next in queue: 6 0 1 5
+
+############# t + 1 - del ####################
+
+System Time = 8
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 7
+2 : 2 1 4 6
+3 : 4 1 3 4
+4 : 5 1 4 3
+5 : 7 1 2 1
+6 : 8 1 3 0
+
+QUEUE 0
+QUEUE
+_______
+1 : 6 0 1 2
+
+
+#################################
+
+TotalLength = 36
+Totalwaitingtime0 = 4
+Totalwaitingtime1 = 6
+Totalservicetime0 = 8
+Totalservicetime1 = 18
+TotalwaitTime0 = 13
+TotalwaitTime1 = 0
+#################################
+
+System Time = 9
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 8
+2 : 2 1 4 7
+3 : 4 1 3 5
+4 : 5 1 4 4
+5 : 7 1 2 2
+6 : 8 1 3 1
+
+QUEUE 0
+QUEUE
+_______
+1 : 6 0 1 3
+
+
+#################################
+
+************
+Pushing element: 9 0 1 0
+************
+QUEUE
+_______
+1 : 6 0 1 3
+2 : 9 0 1 0
+
+---------------------
+Popping element: 6 0 1 3
+---------------------
+QUEUE
+_______
+1 : 6 0 1 3
+2 : 9 0 1 0
+
+Next in queue: 9 0 1 3
+
+############# t + 1 - del ####################
+
+System Time = 9
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 8
+2 : 2 1 4 7
+3 : 4 1 3 5
+4 : 5 1 4 4
+5 : 7 1 2 2
+6 : 8 1 3 1
+
+QUEUE 0
+QUEUE
+_______
+1 : 9 0 1 0
+
+
+#################################
+
+TotalLength = 43
+Totalwaitingtime0 = 5
+Totalwaitingtime1 = 6
+Totalservicetime0 = 9
+Totalservicetime1 = 18
+TotalwaitTime0 = 16
+TotalwaitTime1 = 0
+#################################
+
+System Time = 10
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 9
+2 : 2 1 4 8
+3 : 4 1 3 6
+4 : 5 1 4 5
+5 : 7 1 2 3
+6 : 8 1 3 2
+
+QUEUE 0
+QUEUE
+_______
+1 : 9 0 1 1
+
+
+#################################
+
+************
+Pushing element: 10 1 3
+************
+QUEUE
+_______
+1 : 1 1 2 9
+2 : 2 1 4 8
+3 : 4 1 3 6
+4 : 5 1 4 5
+5 : 7 1 2 3
+6 : 8 1 3 2
+7 : 10 1 3 0
+
+---------------------
+Popping element: 9 0 1 1
+---------------------
+QUEUE
+_______
+1 : 9 0 1 1
+
+############# t + 1 - del ####################
+
+System Time = 10
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 9
+2 : 2 1 4 8
+3 : 4 1 3 6
+4 : 5 1 4 5
+5 : 7 1 2 3
+6 : 8 1 3 2
+7 : 10 1 3 0
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 50
+Totalwaitingtime0 = 5
+Totalwaitingtime1 = 7
+Totalservicetime0 = 9
+Totalservicetime1 = 21
+TotalwaitTime0 = 17
+TotalwaitTime1 = 0
+#################################
+
+System Time = 11
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 10
+2 : 2 1 4 9
+3 : 4 1 3 7
+4 : 5 1 4 6
+5 : 7 1 2 4
+6 : 8 1 3 3
+7 : 10 1 3 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 11 1 2
+************
+QUEUE
+_______
+1 : 1 1 2 10
+2 : 2 1 4 9
+3 : 4 1 3 7
+4 : 5 1 4 6
+5 : 7 1 2 4
+6 : 8 1 3 3
+7 : 10 1 3 1
+8 : 11 1 2 0
+
+############# t + 1 - del ####################
+
+System Time = 11
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 10
+2 : 2 1 4 9
+3 : 4 1 3 7
+4 : 5 1 4 6
+5 : 7 1 2 4
+6 : 8 1 3 3
+7 : 10 1 3 1
+8 : 11 1 2 0
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 57
+Totalwaitingtime0 = 5
+Totalwaitingtime1 = 8
+Totalservicetime0 = 9
+Totalservicetime1 = 23
+TotalwaitTime0 = 17
+TotalwaitTime1 = 0
+#################################
+
+System Time = 12
+
+QUEUE 1
+QUEUE
+_______
+1 : 1 1 2 11
+2 : 2 1 4 10
+3 : 4 1 3 8
+4 : 5 1 4 7
+5 : 7 1 2 5
+6 : 8 1 3 4
+7 : 10 1 3 2
+8 : 11 1 2 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 12 0 4 0
+************
+Queue is empty!!!
+
+---------------------
+Popping element: 1 1 2 11
+---------------------
+QUEUE
+_______
+1 : 1 1 2 11
+2 : 2 1 4 10
+3 : 4 1 3 8
+4 : 5 1 4 7
+5 : 7 1 2 5
+6 : 8 1 3 4
+7 : 10 1 3 2
+8 : 11 1 2 1
+
+Next in queue: 2 1 4 11
+
+############# t + 1 - del ####################
+
+System Time = 12
+
+QUEUE 1
+QUEUE
+_______
+1 : 2 1 4 10
+2 : 4 1 3 8
+3 : 5 1 4 7
+4 : 7 1 2 5
+5 : 8 1 3 4
+6 : 10 1 3 2
+7 : 11 1 2 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 65
+Totalwaitingtime0 = 6
+Totalwaitingtime1 = 8
+Totalservicetime0 = 13
+Totalservicetime1 = 23
+TotalwaitTime0 = 17
+TotalwaitTime1 = 11
+#################################
+
+System Time = 13
+
+QUEUE 1
+QUEUE
+_______
+1 : 2 1 4 11
+2 : 4 1 3 9
+3 : 5 1 4 8
+4 : 7 1 2 6
+5 : 8 1 3 5
+6 : 10 1 3 3
+7 : 11 1 2 2
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 13 0 2 0
+************
+Queue is empty!!!
+
+############# t + 1 - del ####################
+
+System Time = 13
+
+QUEUE 1
+QUEUE
+_______
+1 : 2 1 4 11
+2 : 4 1 3 9
+3 : 5 1 4 8
+4 : 7 1 2 6
+5 : 8 1 3 5
+6 : 10 1 3 3
+7 : 11 1 2 2
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 72
+Totalwaitingtime0 = 7
+Totalwaitingtime1 = 8
+Totalservicetime0 = 15
+Totalservicetime1 = 23
+TotalwaitTime0 = 17
+TotalwaitTime1 = 11
+#################################
+
+System Time = 14
+
+QUEUE 1
+QUEUE
+_______
+1 : 2 1 4 12
+2 : 4 1 3 10
+3 : 5 1 4 9
+4 : 7 1 2 7
+5 : 8 1 3 6
+6 : 10 1 3 4
+7 : 11 1 2 3
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 14 1 3
+************
+QUEUE
+_______
+1 : 2 1 4 12
+2 : 4 1 3 10
+3 : 5 1 4 9
+4 : 7 1 2 7
+5 : 8 1 3 6
+6 : 10 1 3 4
+7 : 11 1 2 3
+8 : 14 1 3 0
+
+############# t + 1 - del ####################
+
+System Time = 14
+
+QUEUE 1
+QUEUE
+_______
+1 : 2 1 4 12
+2 : 4 1 3 10
+3 : 5 1 4 9
+4 : 7 1 2 7
+5 : 8 1 3 6
+6 : 10 1 3 4
+7 : 11 1 2 3
+8 : 14 1 3 0
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 79
+Totalwaitingtime0 = 7
+Totalwaitingtime1 = 9
+Totalservicetime0 = 15
+Totalservicetime1 = 26
+TotalwaitTime0 = 17
+TotalwaitTime1 = 11
+#################################
+
+System Time = 15
+
+QUEUE 1
+QUEUE
+_______
+1 : 2 1 4 13
+2 : 4 1 3 11
+3 : 5 1 4 10
+4 : 7 1 2 8
+5 : 8 1 3 7
+6 : 10 1 3 5
+7 : 11 1 2 4
+8 : 14 1 3 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 15 0 1 0
+************
+Queue is empty!!!
+
+############# t + 1 - del ####################
+
+System Time = 15
+
+QUEUE 1
+QUEUE
+_______
+1 : 2 1 4 13
+2 : 4 1 3 11
+3 : 5 1 4 10
+4 : 7 1 2 8
+5 : 8 1 3 7
+6 : 10 1 3 5
+7 : 11 1 2 4
+8 : 14 1 3 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 87
+Totalwaitingtime0 = 8
+Totalwaitingtime1 = 9
+Totalservicetime0 = 16
+Totalservicetime1 = 26
+TotalwaitTime0 = 17
+TotalwaitTime1 = 11
+#################################
+
+System Time = 16
+
+QUEUE 1
+QUEUE
+_______
+1 : 2 1 4 14
+2 : 4 1 3 12
+3 : 5 1 4 11
+4 : 7 1 2 9
+5 : 8 1 3 8
+6 : 10 1 3 6
+7 : 11 1 2 5
+8 : 14 1 3 2
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 16 0 3 0
+************
+Queue is empty!!!
+
+---------------------
+Popping element: 2 1 4 14
+---------------------
+QUEUE
+_______
+1 : 2 1 4 14
+2 : 4 1 3 12
+3 : 5 1 4 11
+4 : 7 1 2 9
+5 : 8 1 3 8
+6 : 10 1 3 6
+7 : 11 1 2 5
+8 : 14 1 3 2
+
+Next in queue: 4 1 3 14
+
+############# t + 1 - del ####################
+
+System Time = 16
+
+QUEUE 1
+QUEUE
+_______
+1 : 4 1 3 12
+2 : 5 1 4 11
+3 : 7 1 2 9
+4 : 8 1 3 8
+5 : 10 1 3 6
+6 : 11 1 2 5
+7 : 14 1 3 2
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 95
+Totalwaitingtime0 = 9
+Totalwaitingtime1 = 9
+Totalservicetime0 = 19
+Totalservicetime1 = 26
+TotalwaitTime0 = 17
+TotalwaitTime1 = 25
+#################################
+
+System Time = 17
+
+QUEUE 1
+QUEUE
+_______
+1 : 4 1 3 13
+2 : 5 1 4 12
+3 : 7 1 2 10
+4 : 8 1 3 9
+5 : 10 1 3 7
+6 : 11 1 2 6
+7 : 14 1 3 3
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 17 0 2 0
+************
+Queue is empty!!!
+
+############# t + 1 - del ####################
+
+System Time = 17
+
+QUEUE 1
+QUEUE
+_______
+1 : 4 1 3 13
+2 : 5 1 4 12
+3 : 7 1 2 10
+4 : 8 1 3 9
+5 : 10 1 3 7
+6 : 11 1 2 6
+7 : 14 1 3 3
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 102
+Totalwaitingtime0 = 10
+Totalwaitingtime1 = 9
+Totalservicetime0 = 21
+Totalservicetime1 = 26
+TotalwaitTime0 = 17
+TotalwaitTime1 = 25
+#################################
+
+System Time = 18
+
+QUEUE 1
+QUEUE
+_______
+1 : 4 1 3 14
+2 : 5 1 4 13
+3 : 7 1 2 11
+4 : 8 1 3 10
+5 : 10 1 3 8
+6 : 11 1 2 7
+7 : 14 1 3 4
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 18 1 1
+************
+QUEUE
+_______
+1 : 4 1 3 14
+2 : 5 1 4 13
+3 : 7 1 2 11
+4 : 8 1 3 10
+5 : 10 1 3 8
+6 : 11 1 2 7
+7 : 14 1 3 4
+8 : 18 1 1 0
+
+############# t + 1 - del ####################
+
+System Time = 18
+
+QUEUE 1
+QUEUE
+_______
+1 : 4 1 3 14
+2 : 5 1 4 13
+3 : 7 1 2 11
+4 : 8 1 3 10
+5 : 10 1 3 8
+6 : 11 1 2 7
+7 : 14 1 3 4
+8 : 18 1 1 0
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 109
+Totalwaitingtime0 = 10
+Totalwaitingtime1 = 10
+Totalservicetime0 = 21
+Totalservicetime1 = 27
+TotalwaitTime0 = 17
+TotalwaitTime1 = 25
+#################################
+
+System Time = 19
+
+QUEUE 1
+QUEUE
+_______
+1 : 4 1 3 15
+2 : 5 1 4 14
+3 : 7 1 2 12
+4 : 8 1 3 11
+5 : 10 1 3 9
+6 : 11 1 2 8
+7 : 14 1 3 5
+8 : 18 1 1 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 19 1 4
+************
+QUEUE
+_______
+1 : 4 1 3 15
+2 : 5 1 4 14
+3 : 7 1 2 12
+4 : 8 1 3 11
+5 : 10 1 3 9
+6 : 11 1 2 8
+7 : 14 1 3 5
+8 : 18 1 1 1
+9 : 19 1 4 0
+
+---------------------
+Popping element: 4 1 3 15
+---------------------
+QUEUE
+_______
+1 : 4 1 3 15
+2 : 5 1 4 14
+3 : 7 1 2 12
+4 : 8 1 3 11
+5 : 10 1 3 9
+6 : 11 1 2 8
+7 : 14 1 3 5
+8 : 18 1 1 1
+9 : 19 1 4 0
+
+Next in queue: 5 1 4 15
+
+############# t + 1 - del ####################
+
+System Time = 19
+
+QUEUE 1
+QUEUE
+_______
+1 : 5 1 4 14
+2 : 7 1 2 12
+3 : 8 1 3 11
+4 : 10 1 3 9
+5 : 11 1 2 8
+6 : 14 1 3 5
+7 : 18 1 1 1
+8 : 19 1 4 0
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 117
+Totalwaitingtime0 = 10
+Totalwaitingtime1 = 11
+Totalservicetime0 = 21
+Totalservicetime1 = 31
+TotalwaitTime0 = 17
+TotalwaitTime1 = 40
+#################################
+
+System Time = 20
+
+QUEUE 1
+QUEUE
+_______
+1 : 5 1 4 15
+2 : 7 1 2 13
+3 : 8 1 3 12
+4 : 10 1 3 10
+5 : 11 1 2 9
+6 : 14 1 3 6
+7 : 18 1 1 2
+8 : 19 1 4 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 20 1 1
+************
+QUEUE
+_______
+1 : 5 1 4 15
+2 : 7 1 2 13
+3 : 8 1 3 12
+4 : 10 1 3 10
+5 : 11 1 2 9
+6 : 14 1 3 6
+7 : 18 1 1 2
+8 : 19 1 4 1
+9 : 20 1 1 0
+
+############# t + 1 - del ####################
+
+System Time = 20
+
+QUEUE 1
+QUEUE
+_______
+1 : 5 1 4 15
+2 : 7 1 2 13
+3 : 8 1 3 12
+4 : 10 1 3 10
+5 : 11 1 2 9
+6 : 14 1 3 6
+7 : 18 1 1 2
+8 : 19 1 4 1
+9 : 20 1 1 0
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 125
+Totalwaitingtime0 = 10
+Totalwaitingtime1 = 12
+Totalservicetime0 = 21
+Totalservicetime1 = 32
+TotalwaitTime0 = 17
+TotalwaitTime1 = 40
+#################################
+
+System Time = 21
+
+QUEUE 1
+QUEUE
+_______
+1 : 5 1 4 16
+2 : 7 1 2 14
+3 : 8 1 3 13
+4 : 10 1 3 11
+5 : 11 1 2 10
+6 : 14 1 3 7
+7 : 18 1 1 3
+8 : 19 1 4 2
+9 : 20 1 1 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 21 0 2 0
+************
+Queue is empty!!!
+
+############# t + 1 - del ####################
+
+System Time = 21
+
+QUEUE 1
+QUEUE
+_______
+1 : 5 1 4 16
+2 : 7 1 2 14
+3 : 8 1 3 13
+4 : 10 1 3 11
+5 : 11 1 2 10
+6 : 14 1 3 7
+7 : 18 1 1 3
+8 : 19 1 4 2
+9 : 20 1 1 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 134
+Totalwaitingtime0 = 11
+Totalwaitingtime1 = 12
+Totalservicetime0 = 23
+Totalservicetime1 = 32
+TotalwaitTime0 = 17
+TotalwaitTime1 = 40
+#################################
+
+System Time = 22
+
+QUEUE 1
+QUEUE
+_______
+1 : 5 1 4 17
+2 : 7 1 2 15
+3 : 8 1 3 14
+4 : 10 1 3 12
+5 : 11 1 2 11
+6 : 14 1 3 8
+7 : 18 1 1 4
+8 : 19 1 4 3
+9 : 20 1 1 2
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 22 1 3
+************
+QUEUE
+_______
+1 : 5 1 4 17
+2 : 7 1 2 15
+3 : 8 1 3 14
+4 : 10 1 3 12
+5 : 11 1 2 11
+6 : 14 1 3 8
+7 : 18 1 1 4
+8 : 19 1 4 3
+9 : 20 1 1 2
+10 : 22 1 3 0
+
+############# t + 1 - del ####################
+
+System Time = 22
+
+QUEUE 1
+QUEUE
+_______
+1 : 5 1 4 17
+2 : 7 1 2 15
+3 : 8 1 3 14
+4 : 10 1 3 12
+5 : 11 1 2 11
+6 : 14 1 3 8
+7 : 18 1 1 4
+8 : 19 1 4 3
+9 : 20 1 1 2
+10 : 22 1 3 0
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 143
+Totalwaitingtime0 = 11
+Totalwaitingtime1 = 13
+Totalservicetime0 = 23
+Totalservicetime1 = 35
+TotalwaitTime0 = 17
+TotalwaitTime1 = 40
+#################################
+
+System Time = 23
+
+QUEUE 1
+QUEUE
+_______
+1 : 5 1 4 18
+2 : 7 1 2 16
+3 : 8 1 3 15
+4 : 10 1 3 13
+5 : 11 1 2 12
+6 : 14 1 3 9
+7 : 18 1 1 5
+8 : 19 1 4 4
+9 : 20 1 1 3
+10 : 22 1 3 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 23 0 2 0
+************
+Queue is empty!!!
+
+---------------------
+Popping element: 5 1 4 18
+---------------------
+QUEUE
+_______
+1 : 5 1 4 18
+2 : 7 1 2 16
+3 : 8 1 3 15
+4 : 10 1 3 13
+5 : 11 1 2 12
+6 : 14 1 3 9
+7 : 18 1 1 5
+8 : 19 1 4 4
+9 : 20 1 1 3
+10 : 22 1 3 1
+
+Next in queue: 7 1 2 18
+
+############# t + 1 - del ####################
+
+System Time = 23
+
+QUEUE 1
+QUEUE
+_______
+1 : 7 1 2 16
+2 : 8 1 3 15
+3 : 10 1 3 13
+4 : 11 1 2 12
+5 : 14 1 3 9
+6 : 18 1 1 5
+7 : 19 1 4 4
+8 : 20 1 1 3
+9 : 22 1 3 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 153
+Totalwaitingtime0 = 12
+Totalwaitingtime1 = 13
+Totalservicetime0 = 25
+Totalservicetime1 = 35
+TotalwaitTime0 = 17
+TotalwaitTime1 = 58
+#################################
+
+System Time = 24
+
+QUEUE 1
+QUEUE
+_______
+1 : 7 1 2 17
+2 : 8 1 3 16
+3 : 10 1 3 14
+4 : 11 1 2 13
+5 : 14 1 3 10
+6 : 18 1 1 6
+7 : 19 1 4 5
+8 : 20 1 1 4
+9 : 22 1 3 2
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 24 1 3
+************
+QUEUE
+_______
+1 : 7 1 2 17
+2 : 8 1 3 16
+3 : 10 1 3 14
+4 : 11 1 2 13
+5 : 14 1 3 10
+6 : 18 1 1 6
+7 : 19 1 4 5
+8 : 20 1 1 4
+9 : 22 1 3 2
+10 : 24 1 3 0
+
+############# t + 1 - del ####################
+
+System Time = 24
+
+QUEUE 1
+QUEUE
+_______
+1 : 7 1 2 17
+2 : 8 1 3 16
+3 : 10 1 3 14
+4 : 11 1 2 13
+5 : 14 1 3 10
+6 : 18 1 1 6
+7 : 19 1 4 5
+8 : 20 1 1 4
+9 : 22 1 3 2
+10 : 24 1 3 0
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 162
+Totalwaitingtime0 = 12
+Totalwaitingtime1 = 14
+Totalservicetime0 = 25
+Totalservicetime1 = 38
+TotalwaitTime0 = 17
+TotalwaitTime1 = 58
+#################################
+
+System Time = 25
+
+QUEUE 1
+QUEUE
+_______
+1 : 7 1 2 18
+2 : 8 1 3 17
+3 : 10 1 3 15
+4 : 11 1 2 14
+5 : 14 1 3 11
+6 : 18 1 1 7
+7 : 19 1 4 6
+8 : 20 1 1 5
+9 : 22 1 3 3
+10 : 24 1 3 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+************
+Pushing element: 25 0 1 0
+************
+Queue is empty!!!
+
+---------------------
+Popping element: 7 1 2 18
+---------------------
+QUEUE
+_______
+1 : 7 1 2 18
+2 : 8 1 3 17
+3 : 10 1 3 15
+4 : 11 1 2 14
+5 : 14 1 3 11
+6 : 18 1 1 7
+7 : 19 1 4 6
+8 : 20 1 1 5
+9 : 22 1 3 3
+10 : 24 1 3 1
+
+Next in queue: 8 1 3 18
+
+############# t + 1 - del ####################
+
+System Time = 25
+
+QUEUE 1
+QUEUE
+_______
+1 : 8 1 3 17
+2 : 10 1 3 15
+3 : 11 1 2 14
+4 : 14 1 3 11
+5 : 18 1 1 7
+6 : 19 1 4 6
+7 : 20 1 1 5
+8 : 22 1 3 3
+9 : 24 1 3 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 172
+Totalwaitingtime0 = 13
+Totalwaitingtime1 = 14
+Totalservicetime0 = 26
+Totalservicetime1 = 38
+TotalwaitTime0 = 17
+TotalwaitTime1 = 76
+************
+Pushing element: 25 0 1 0
+************
+Queue is empty!!!
+
+############# t + 1 - del ####################
+
+System Time = 25
+
+QUEUE 1
+QUEUE
+_______
+1 : 8 1 3 17
+2 : 10 1 3 15
+3 : 11 1 2 14
+4 : 14 1 3 11
+5 : 18 1 1 7
+6 : 19 1 4 6
+7 : 20 1 1 5
+8 : 22 1 3 3
+9 : 24 1 3 1
+
+QUEUE 0
+Queue is empty!!!
+
+
+#################################
+
+TotalLength = 172
+Totalwaitingtime0 = 14
+Totalwaitingtime1 = 14
+Totalservicetime0 = 27
+Totalservicetime1 = 38
+TotalwaitTime0 = 17
+TotalwaitTime1 = 76
+__+_+_+_+_+_+_+_+_____________________________
+
+TotalLength = 172
+Totalwaitingtime0 = 14
+Totalwaitingtime1 = 14
+TotalwaitTime0 = 17
+TotalwaitTime1 = 76
+System Time = 25
+
+---------------------
+Popping element: 8 1 3 17
+---------------------
+QUEUE
+_______
+1 : 8 1 3 17
+2 : 10 1 3 15
+3 : 11 1 2 14
+4 : 14 1 3 11
+5 : 18 1 1 7
+6 : 19 1 4 6
+7 : 20 1 1 5
+8 : 22 1 3 3
+9 : 24 1 3 1
+
+Next in queue: 10 1 3 17
+
+---------------------
+Popping element: 10 1 3 15
+---------------------
+QUEUE
+_______
+1 : 10 1 3 15
+2 : 11 1 2 14
+3 : 14 1 3 11
+4 : 18 1 1 7
+5 : 19 1 4 6
+6 : 20 1 1 5
+7 : 22 1 3 3
+8 : 24 1 3 1
+
+Next in queue: 11 1 2 15
+
+---------------------
+Popping element: 11 1 2 14
+---------------------
+QUEUE
+_______
+1 : 11 1 2 14
+2 : 14 1 3 11
+3 : 18 1 1 7
+4 : 19 1 4 6
+5 : 20 1 1 5
+6 : 22 1 3 3
+7 : 24 1 3 1
+
+Next in queue: 14 1 3 14
+
+---------------------
+Popping element: 14 1 3 11
+---------------------
+QUEUE
+_______
+1 : 14 1 3 11
+2 : 18 1 1 7
+3 : 19 1 4 6
+4 : 20 1 1 5
+5 : 22 1 3 3
+6 : 24 1 3 1
+
+Next in queue: 18 1 1 11
+
+---------------------
+Popping element: 18 1 1 7
+---------------------
+QUEUE
+_______
+1 : 18 1 1 7
+2 : 19 1 4 6
+3 : 20 1 1 5
+4 : 22 1 3 3
+5 : 24 1 3 1
+
+Next in queue: 19 1 4 7
+
+---------------------
+Popping element: 19 1 4 6
+---------------------
+QUEUE
+_______
+1 : 19 1 4 6
+2 : 20 1 1 5
+3 : 22 1 3 3
+4 : 24 1 3 1
+
+Next in queue: 20 1 1 6
+
+---------------------
+Popping element: 20 1 1 5
+---------------------
+QUEUE
+_______
+1 : 20 1 1 5
+2 : 22 1 3 3
+3 : 24 1 3 1
+
+Next in queue: 22 1 3 5
+
+---------------------
+Popping element: 22 1 3 3
+---------------------
+QUEUE
+_______
+1 : 22 1 3 3
+2 : 24 1 3 1
+
+Next in queue: 24 1 3 3
+
+---------------------
+Popping element: 24 1 3 1
+---------------------
+QUEUE
+_______
+1 : 24 1 3 1
+
+TotalLength = 265
+Totalwaitingtime0 = 14
+Totalwaitingtime1 = 14
+System Time = 48
+
+TotalLength = 265
+TotalwaitTime0 = 17
+TotalwaitTime1 = 155
+Totalservicetime0 = 27
+Totalservicetime1 = 61
+System Time = 48
+
+
+waitTime0 = -10
+waitTime1 = 94
+AvgWaitTime0: 0 
+AvgWaitTime1: 6 
+AvgQLength: 5 
+AvgCPUUtilisation: 0
